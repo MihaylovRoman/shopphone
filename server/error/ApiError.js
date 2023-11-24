@@ -1,7 +1,7 @@
 class ApiError extends Error{
     constructor(status, message){
         super()
-        this.status = statusthis
+        this.status = status
         this.message = message
     }
     static badRequest(message){
