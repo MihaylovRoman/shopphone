@@ -10,7 +10,7 @@ const DeviceItem = ({ device }) => {
                 <Image width={150} height={150} src={device.img} />
                 <div className='text-black-50 d-flex justify-content-between mt-2'>
                     <div>
-                        Samsung
+                        {device.name}
                     </div>
                     <div>
                         <div className='d-flex'>
